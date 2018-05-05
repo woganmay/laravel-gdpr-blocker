@@ -1,0 +1,22 @@
+{
+    "name": "woganmay/laravel-gdpr-blocker",
+    "description": "Laravel middleware that blocks EU-based IP ranges",
+    "type": "library",
+    "require": {
+      "wikimedia/ip-set": "^1.2",
+      "woganmay/gdpr-blackhole": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "WoganMay\\GDPRBlocker\\": "src/"
+      }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+      {
+        "name": "Wogan May",
+        "email": "wogan.may@gmail.com"
+      }
+    ]
+}
